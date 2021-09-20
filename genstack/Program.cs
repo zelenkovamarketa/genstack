@@ -16,7 +16,7 @@ namespace genstack
     {
         T[] elements;
         int index; //test
-        public Stack(int maxElementCount = 100)
+        public Stack(int maxElementCount = 101)
         {
             elements = new T[maxElementCount];
             index = -1;
